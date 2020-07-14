@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Modak', cursive;
+    position:relative;
+}
+
+
+header, footer{
+    height:20vh;
+    width:100%;
+    background:linear-gradient(to right,green,rgb(68, 212, 68),rgb(35, 153, 35));  
+    border-bottom:2px solid black;
+    letter-spacing:3px;
+}
+
+
+footer{
+    text-align:center;
+    height:5vh;
+}
+
+
+.h1{
+    position:absolute;
+}
+
+.headerone{
+    color:lightgreen;
+    font-family: 'Merienda One', cursive;
+
+}
+
+.headertwo{
+    left:20%;
+    top:30%;
+}
+
+.headerthree{
+    color:lightgreen;
+    left:30%;
+    top:30%;
+    font-family: 'Merienda One', cursive;
+
+}
+
+.headerfour{
+    color:black;
+    left:35%;
+    top:65%;
+    font-size:30px;
+}
+
+.headerfive{
+    top:60%;
+    left:5%;
+}
+
+.headersix{
+    left:80%;
+    top:5%;
+}
+
+
+.container{
+    height:75vh;
+    width:100%;
+}
+
+.appcontainer{
+    height:100%;
+    width:100%;
+    position:absolute;
+    background:rgb(255,0,0,0.7);
+    z-index:1;
+    opacity:.9;
+}
+
+.contentcontainer{
+    height:80%;
+    width:80%;
+    top:10%;
+    left:10%;
+    /* outline:1px solid black; */
+}
+
+.title{
+    text-align:center;
+    font-size:30px;
+    letter-spacing:4px;
+}
+
+.questionsleft{
+    text-align:center;
+    letter-spacing:2px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.progressbar{
+    width:50%;
+    left:25%;
+    height:10px;
+    outline:1px solid black;
+    display:none;
+}
+
+.progress{
+    height:100%;
+    width:0%;
+    background:linear-gradient(to right,green,rgb(68, 212, 68),rgb(35, 153, 35));  
+    transition:1s ease;
+}
+
+
+.startmodal, .questionmodal{
+    position:absolute;
+    height:50%;
+    width:50%;
+    left:25%;
+    top:25%;
+    border:1px solid black;
+    border-radius:15%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.questionmodal{
+    width:75%;
+    left:12%;
+    background:linear-gradient(to right,green,rgb(68, 212, 68),rgb(35, 153, 35));  
+}
+
+.giphymodal{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+ 
+}
+
+.giphyimg{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    border-radius:15%;
+    top:-15px;
+    
+}
+
+
+.storymodal{
+    position:absolute;
+    height:80%;
+    width:100%;
+    font-family: 'Merienda One', cursive;
+    background:linear-gradient(to right,lightgray,white);
+    overflow:auto;
+    padding:.75em;
+    text-align:center;
+}
+
+/*Adjust js.file (ln 143-145) */
+
+/* 
+.pword{
+    position:inline-block;
+    font-size:18px;
+    font-family: 'Merienda One', cursive;
+
+}
+
+.word-choice{
+    color:red;
+    font-family: 'Merienda One', cursive;
+
+} */
+
+.storytext{
+    font-family: 'Merienda One', cursive;
+
+}
+
+.questionh3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.startmodal{
+    background:green;
+}
+
+.startmodal:hover .starth3{
+    transform:scale(1.2)
+}
+
+
+.questioncontent{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    flex-direction:column;
+    height:100%;
+    width:100%;
+}
+
+.nextBtn{
+    width:100px;
+    background:green;
+}
+
+input[name='answer']{
+    height:40px;
+    font-size:18px;
+    outline:none;
+}
+
+.sub-text{
+    top:-15px;
+    letter-spacing:2px;
+}
+
+
+.overlay{
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.overlayimg{
+    height:100%;
+    width:100%;
+}
+
